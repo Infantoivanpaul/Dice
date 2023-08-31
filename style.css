@@ -1,0 +1,86 @@
+.mid-content{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+
+body{
+    padding: 0;
+    padding-top: 30px;
+    height: 94vh;
+    margin: 0;
+}
+
+body *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    color: rgb(0,150,129);
+}
+
+h1{
+    font-size: xx-large;
+}
+
+.side h3{
+    color: black;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.side p{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn1,.btn2, .reset-button{
+    background-color:rgb(0,128,0) ;
+    color: white;
+    padding: 15px 25px ;
+    border: none;
+}
+
+.btn1:disabled, .btn2:disabled{
+    background-color: rgb(128,128,128);
+}
+
+
+.reset-button{
+    background-color: rgb(255,144,144);
+}
+
+.reset-button:disabled{
+    background-color: rgb(202, 157, 157);
+}
+
+img{
+    height: 170px;
+}
+#gif-container {
+   
+    margin-bottom: 150px;
+    margin-left: 45%;
+    padding-top: 10px;
+}
+
